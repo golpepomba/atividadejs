@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade5</title>
+</head>
+<body>
+    <script>
+
+function fatorial(numero) {
+    if (numero === 0 || numero === 1) {
+        return 1;
+    } else {
+        return numero * fatorial(numero - 1);
+    }
+}
+
+const numero = 4;
+
+const resultado = fatorial(numero);
+document.write(`O fatorial de ${numero} é ${resultado}`);
+
+        
+    </script>
+
+
+</body>
+</html>
